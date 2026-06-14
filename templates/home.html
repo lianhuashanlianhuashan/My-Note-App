@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Note App</title>
+
+        <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    </head>
+
+    <body>
+        <h1>Create your Note</h1>
+        <img alt="Forest picture" class="pic margin" src="{{url_for('static',filename='image/forest.png')}}">
+        <textarea type="text" id="noteInput" placeholder="What's on your mind today?" class="margin textBox"></textarea>
+        <button id="uploadBtn" class="margin">save</button>
+
+        <h2>Your Notes</h2>
+        <ul id="notesList"></ul>
+
+        <script src="{{url_for('static',filename='js/script.js')}}"></script>
+    </body>
+</html>
