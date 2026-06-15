@@ -2,6 +2,7 @@
 A cloud‑based note‑taking web application built with Flask, deployed on an AWS EC2 instance, and integrated with Amazon S3 for persistent storage. Users can create, upload, view, download, and delete text notes stored securely in the cloud.
 
 🚀 Overview
+
 This project demonstrates how to build and deploy a full web application on AWS using:
 
 A Flask backend
